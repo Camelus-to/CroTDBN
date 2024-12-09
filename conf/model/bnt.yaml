@@ -1,0 +1,9 @@
+# seq, gnn, fbnetgen 
+name: BrainNetworkTransformer  # 如果执行的是测试任务 要用BrainNetworkTransformer_test，如果不是测试任务，请用BrainNetworkTransformer
+sizes: [360, 100]  # Note: The input node size should not be included here
+pooling: [false, true]
+pos_encoding: identity  # identity, none
+orthogonal: true
+freeze_center: true
+project_assignment: true
+pos_embed_dim: 360

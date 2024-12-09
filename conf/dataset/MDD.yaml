@@ -1,0 +1,14 @@
+name: adni
+batch_size: 6
+test_batch_size: 16
+val_batch_size: 16
+train_set: 0.7
+val_set: 0.1
+path_all: E:\Technolgy_learning\Learning_code\AD\BrainNetworkTransformer-View-Bert\source_gai\data\MDD\processed\dynamic_functional_connectivity_data.npy
+path: E:\Technolgy_learning\Learning_code\AD\BrainNetworkTransformer-View-Bert\source_gai\data\MDD\processed
+stratified: True
+drop_last: True
+
+node_sz : 116
+node_feature_sz: 116
+timeseries_sz : 116

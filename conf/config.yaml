@@ -1,0 +1,20 @@
+defaults:
+  - dataset: MDD # ABIDE ADNI MDD
+  - model: bnt # brainnetcnn, fbnetgen, bnt, transformer
+  - optimizer: adam
+  - training: basic_training
+  - datasz: 100p
+  - preprocess: mixup
+
+repeat_time: 5
+log_path: result
+save_learnable_graph: True
+lunshu: 0
+which_model: mdd
+duibifangfa:
+jiqixuexi: SVM
+# wandb
+wandb_entity: w321439340-shandong-normal-university
+project: brainnetworktransformer
+Partition: True
+path: E:\Technolgy_learning\Learning_code\AD\BrainNetworkTransformer-View-Bert\source_gai\data
